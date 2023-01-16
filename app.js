@@ -33,7 +33,7 @@ const getValues = () => {
 }
 
 const createDiv = () => {
-  // creacion de nuevos elementos:
+  // creacion de nuevos elementos, nueva linea que contendra monto de gasto tipo de gasto y boton para eliminar:
   
   newLine = document.createElement('div')
   newDiv = document.createElement('div') 
