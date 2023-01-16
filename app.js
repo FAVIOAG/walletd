@@ -10,6 +10,8 @@ let newDivThree
 let newLine
 let clickNum = 0
 
+/* Declaracion de variables globales */
+
 let btnAdd = document.getElementById('addExp')
 let nightMode = document.getElementById('nightMode')
 
