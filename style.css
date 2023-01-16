@@ -136,9 +136,9 @@ input[type=number] {-moz-appearance:textfield} /* Eliminacion de flechas de incr
 .focused2{
     background-color: rgba(121, 120, 120, 0.2);
     border-bottom: solid black; 
-}  A/* plicacion de colores de fondo de los input y bordes al ser clickeados  */
+}  /* Aplicacion de colores de fondo de los input y bordes al ser clickeados  */
 
-.addExpBtn{
+.addExpBtn{ 
     height: 20vh;
     width: 20vh;
     border-radius: 30px;
@@ -146,14 +146,12 @@ input[type=number] {-moz-appearance:textfield} /* Eliminacion de flechas de incr
     background-color: transparent;
     font-size: 4rem;
     color: white;
-} /* Estilado de boton para agregar gasto */
-
+} 
 .addExpBtn:hover{
     background-color: rgba(121, 120, 120, 0.2);
     cursor: pointer;
     
-} /* Estilado de boton para agregar gasto al ser apuntado */
-
+} 
 .divTitleExpenses{
     color: white;
     border-radius: 30px;

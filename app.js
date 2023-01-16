@@ -9,18 +9,19 @@ let newDivTwo
 let newDivThree
 let newLine
 let clickNum = 0
-
+let newDiv
 /* Declaracion de variables globales */
 
 let btnAdd = document.getElementById('addExp')
 let nightMode = document.getElementById('nightMode')
-
+/* Asignacion de botones modo noche y agregar gastos a variables para operar desde Js */
 
 const contDiv = () => {
   newDivId+=1
   return newDivId
 }   
-let newDiv
+
+
 
 const getValues = () => {
   moneyAvail = document.getElementById('inputMoney').value // tomo el valor de dinero disponible
