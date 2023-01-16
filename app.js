@@ -19,10 +19,8 @@ let nightMode = document.getElementById('nightMode')
 const contDiv = () => {
   newDivId+=1
   return newDivId
-}   
-
-
-
+}  /*  Contador para identificar rows generadas desde Js
+ */
 const getValues = () => {
   moneyAvail = document.getElementById('inputMoney').value // tomo el valor de dinero disponible
   typeExp = document.getElementById('inputType').value // tomo el tipo de gasto
