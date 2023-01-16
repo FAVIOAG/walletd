@@ -226,73 +226,72 @@ input[type=number] {-moz-appearance:textfield} /* Eliminacion de flechas de incr
 }/*  Estilado de boton trashcan generado con la linea de gasto y su forma al apuntarlo */
 
 
-GENERACION DE MEDIA QUERYS PARA RESPONSIVE
+/* GENERACION DE MEDIA QUERIES PARA RESPONSIVE */
 
 @media (max-width: 1040px){
 
 .welcome{
     font-size: 1rem;
     text-align: center;
-}
+} /* Se achica y centra titulo para el tamaño determinado */
 
 .nightModeBtn{
     width: 19vw;
     height: 5vh;
-}
+}/*  Se achica boton modo noche */
 
 img{
     width: 4rem;
     height: 3.5rem;
     margin: 0;
-}
+} /* Se achica imagen logo */
 
 .nightMode{
     margin: 0;
-}
+} /* Se elimina margen de boton modo noche */
 
 .inputs{
     padding: 0;
-}
-
+} /* Se elimina padding para el contenedor de inputs de gastos
+ */
 .input1{
     width: 22vw;
     height: 12vh;
     font-size: 0.5rem;
     padding: 7px;   
-}
+} /* Se achican las propiedades del div para ingresar total de dinero */
 
 .input2{
     width: 19vw;
     height: 12vh;
     font-size: 0.5rem;
     padding: 5px;
-    
-}
+} /* Se achica el input para ingresar el monto de gasto */
 
 .addExpBtn{
     width: 8vw;
     height: 7vh;
     font-size: 1rem;
-}
+} /* Se reduce el tamaño del boton para agregar gasto */
 
 .inputMoney{
     font-size: 1rem;
     height: 9vh;
     width: 22vh;
-}
+} /* Se achica el input para ingresar total disponible */
 
 .inputMoney2{
     font-size: 1rem;
     height: 9vh;
     width: 18vh;
-}
-
+}/*  Se achica el input para ingresar monto gasto
+ */
 .totalIncome{
     height: 12vh;
     width: 42vh;
     font-size: 0.5rem;
     padding: 0.3rem;
-}
+} /* Se reduce el Div que contiene el resumen del total disponible */
 
 .divTotalAmmount{
     font-size: 1.5rem;
