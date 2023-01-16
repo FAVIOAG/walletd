@@ -74,7 +74,7 @@ img{
     padding: 30px;
     color: rgb(255, 255, 255);
     text-align: center;
-}  /* Input ingreso monto disponible y sus propiedades */
+}  /* Div ingreso monto disponible y sus propiedades */
 
 input[type=number]::-webkit-inner-spin-button,
 input[type=number]::-webkit-outer-spin-button {
@@ -97,11 +97,11 @@ input[type=number] {-moz-appearance:textfield} /* Eliminacion de flechas de incr
 .focused2 {
     background-color: rgba(121, 120, 120, 0.2);
     border-bottom: solid black;
-}
+} /* Asignacion de propiedades para inputs cuando son seleccionados */
 
 .inputMoney2.focused2{
     outline: none;
-}
+} /* Asignacion de propiedades para inputs cuando son seleccionados */
     
 .inputMoney{
     background-color: transparent;
@@ -111,7 +111,7 @@ input[type=number] {-moz-appearance:textfield} /* Eliminacion de flechas de incr
     border: transparent;
     font-size: 2.5rem;
     color: white;
-}
+} /* Input ingreso monto gasto y sus propiedades */
 
 .inputMoney.focused{
     outline: none;
