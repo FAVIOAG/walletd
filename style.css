@@ -162,8 +162,8 @@ input[type=number] {-moz-appearance:textfield} /* Eliminacion de flechas de incr
     padding: 1rem;
     background: linear-gradient(140deg, rgba(44,142,176,1) 0%, rgba(251,142,254,0.5970763305322129) 55%); 
     margin: 0.5rem;
-}
-
+} /* Propiedades para el div titulo Gastos
+ */
 .totalBar {
     display: flex;
     justify-content: space-evenly;
@@ -172,7 +172,8 @@ input[type=number] {-moz-appearance:textfield} /* Eliminacion de flechas de incr
     background: linear-gradient(140deg, rgba(44,142,176,1) 0%, rgba(251,142,254,0.5970763305322129) 55%);
     margin: 0.5rem; 
     color: white; 
-}
+}/* Propiedades para el div de resumen de saldo y gastos
+ */
 
 .totalIncome{
     width: 25vw;
@@ -181,7 +182,8 @@ input[type=number] {-moz-appearance:textfield} /* Eliminacion de flechas de incr
     border-radius: 30px;
     padding: 1rem;
     text-align: center;
-}
+} /* Propiedades para el div de ingresos totales
+*/
 
 .divTotalAmmount{
     display: flex;
@@ -190,7 +192,8 @@ input[type=number] {-moz-appearance:textfield} /* Eliminacion de flechas de incr
     height: 10vh;
     font-size: 3rem;
     
-}
+} /* Propiedades para el div de gastos totales
+*/
 
 .jsclass{
     display: flex;
@@ -200,12 +203,12 @@ input[type=number] {-moz-appearance:textfield} /* Eliminacion de flechas de incr
     align-items: center;
     animation-name: anim;
     animation-duration: 1s;
-}
+} /* Propiedades de clase generada desde Js */
 
 @keyframes anim {
     0%{transform: scale(0.2);}
     100%{transform: scale(1);}
-}
+}/*  Animacion de lineas de gastos creadas desde Js */
 
 .trashBtn{
     height: 6vh;
@@ -213,15 +216,17 @@ input[type=number] {-moz-appearance:textfield} /* Eliminacion de flechas de incr
     font-size: 2rem;
     background-color: transparent;
     color: white;
-    border: none;
-    
-}
+    border: none;  
+}/*  Estilado de boton trashcan generado con la linea de gasto */
 
 .trashBtn:hover{
     cursor: pointer;
     color: red;
     font-size: 3rem;
-}
+}/*  Estilado de boton trashcan generado con la linea de gasto y su forma al apuntarlo */
+
+
+GENERACION DE MEDIA QUERYS PARA RESPONSIVE
 
 @media (max-width: 1040px){
 
