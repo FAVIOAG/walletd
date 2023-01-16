@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@200&family=Rowdies:wght@300&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.3/font/bootstrap-icons.css">
+    <title>Dog-Wallet</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+    <section class="degreeCont"> <!-- Creacion seccion que contiene los divs en un gradiente -->
+        <!-- <header class="welcomeBar"> --> 
+            <header class="topBar">
+                <div class="logo"> <!-- Declaracion de div que contendra imagen de logo -->
+                <img src="./Assets/logo.png" alt="logoImage">
+                </div>
+                <div class="welcome"> <!-- Declaracion de div para mensaje de bienvenida -->
+                <h1 class="welcomeMessage"> Bienvenido a Dog-Wallet!!! </h1>
+                </div>  
+                <div class="nightMode">  <!-- Declaracion de div para boton modo noche -->
+                <button class="nightModeBtn" id="nightMode"> <i class="bi bi-moon"></i> </button>
+                </div>
+            </header>
+            <div class="inputs">
+                <div class="input1"> <h1>Dinero disponible:</h1>
+                    <input class="inputMoney" type="number" step="any"  onfocus="this.classList.add('focused')" onblur="this.classList.remove('focused')" onfocus="this.setSelectionRange(0, 0)" value="$ " 
+                    id="inputMoney"  >
+                </div>  <!-- Declaracion input para ingresar dinero disponible -->
+                <div class="input1"><h1>Detalle gasto:</h1>
+                    <input class="inputMoney" type="text"   id="inputType" onfocus="this.classList.add('focused')" onblur="this.classList.remove('focused')" onfocus="this.setSelectionRange(0, 0)"  >  <!-- Declaracion de input para descripcion del gasto -->
+                </div>
+                <div class="input2"><h1>Monto gasto:</h1>
+                    <input class="inputMoney2" type="number"   id="inputAmmount" onfocus="this.classList.add('focused2')" onblur="this.classList.remove('focused2')" onfocus="this.setSelectionRange(0, 0)" value="$ ">
+                </div>
+                    <div>
+                    <button class="addExpBtn" id="addExp"> <i class="bi bi-plus-circle"></i></button>   
+                
+                </div>
+            </div>
+        </section>
+        <section class="totalBar"><!--  Inicio declaracion barra inferior con resumen de ingreso gastos y disponible -->
+            <div class="totalIncome">  <!-- Declaracion de div para dinero ingresado -->
+                <h1 class="totalAmmTitle"> Ingreso Total</h1>  <!-- Declaracion de titulo para dinero ingresado -->
+                <div class="divTotalAmmount"><p class="totalAmmount" id="totalAmmount"></p>
+                </div> <!-- Muestra dinero total ingresado -->
+            </div>
+            <div class="totalIncome">  <!-- Declaracion de div para gastos totales -->
+                <h1 class="totalExpTitle"> Gastos Totales</h1> <!-- Titulo gastos totales -->
+                <div class="divTotalAmmount"><p class="totalExpenses" id="totalExp"></p></div> <!-- Muestra gastos totales -->
+            </div>
+            <div class="totalIncome"> <!-- Declaracion de div para dinero disponible -->
+                <h1 class="availTitle"> Disponible </h1> <!-- Titulo dinero disponible -->
+                <div class="divTotalAmmount"><p class="availAmmount" id="availAmmount"> </p></div> <!-- Muestra dinero disponible -->
+            </div>
+        </section>
+    </div>
+    
+    
+        <div class="responseColumn">
+        <div class="divTitleExpenses" id="newDivJs">
+        <h1 class="titleExpenses"> Gastos </h1> <!-- Declaracion titulo gastos -->
+    </div>     
+</div> 
+    
+    
+    <!-- <div>
+        <input class="prueba1" type="text" name="" id="" >
+        <input class="prueba2" type="text" name="" id="">
+    </div> -->
+    <script src="./app.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/validate.js/0.13.1/validate.min.js"></script>
+
+</body>
+</html>
