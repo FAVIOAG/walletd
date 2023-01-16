@@ -1,15 +1,15 @@
 
-
 *{
     margin: 0;
     padding: 0;
     font-family: 'Raleway', sans-serif;
-}
+ } /* Eliminacion de margen padding y declaracion de fuentes para todo el archivo
+  */
 
 body {
     width: 100%;
     background-color: rgb(113, 12, 133);
-}
+} /* Propiedades de ancho y color de fondo de body */
 
 .degreeCont{
     display: flex;
@@ -18,19 +18,19 @@ body {
     flex-direction: column;
     margin: 0.5rem;
     padding: 1rem;
-}
-
+} /* Asignacion de propiedades al contenedor que tendra como hijos los div para ingresar dinero disponible tipo de monto y monto gastos
+ */
 .topBar{
     display: flex;
     justify-content: space-between;
-}
+} /* Propiedades para barra con icono titulo y boton de modo noche */
 
 img{
     width: 8rem;
     height: 6.5rem;   
     border-radius: 30px;
     margin-left: 2rem;
-}
+} /* Propiedades para imagen */
 
 .welcome {
     display: flex;
