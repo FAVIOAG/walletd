@@ -114,7 +114,7 @@ const updTotal = () => {
   else if (totalMoney < 0) {availAmmount.style.color = 'red'}
   }
   
-  // Funcion modo noche
+  // Funcion modo noche encendido y apagado desde el mismo boton
   
   const nightModeOn = () => {
     clickNum+=1
