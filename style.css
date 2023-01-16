@@ -282,11 +282,6 @@ img{
     width: 18vh;
 }
 
-.responseColumn{
-    display: flex;
-    flex-direction: column-reverse;
-}
-
 .totalIncome{
     height: 12vh;
     width: 42vh;
