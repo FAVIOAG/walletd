@@ -111,11 +111,11 @@ input[type=number] {-moz-appearance:textfield} /* Eliminacion de flechas de incr
     border: transparent;
     font-size: 2.5rem;
     color: white;
-} /* Input ingreso monto gasto y sus propiedades */
+} /* Input ingreso monto disponible y sus propiedades */
 
 .inputMoney.focused{
     outline: none;
-} 
+} /* Quitar borde al estar seleccionado el input */
 
 .inputMoney2{
     background-color: transparent;
@@ -126,17 +126,17 @@ input[type=number] {-moz-appearance:textfield} /* Eliminacion de flechas de incr
     font-size: 2.5rem;
     color: white;
     border-radius: 30px;
-}
+}/* Input ingreso monto gasto y sus propiedades */
 
 .focused {
     background-color: rgba(121, 120, 120, 0.2);
     border-bottom: solid black;
-}
+} /* Aplicacion de colores de fondo de los input y bordes al ser clickeados */
 
 .focused2{
     background-color: rgba(121, 120, 120, 0.2);
     border-bottom: solid black; 
-}
+}  A/* plicacion de colores de fondo de los input y bordes al ser clickeados  */
 
 .addExpBtn{
     height: 20vh;
@@ -146,13 +146,13 @@ input[type=number] {-moz-appearance:textfield} /* Eliminacion de flechas de incr
     background-color: transparent;
     font-size: 4rem;
     color: white;
-}
+} /* Estilado de boton para agregar gasto */
 
 .addExpBtn:hover{
     background-color: rgba(121, 120, 120, 0.2);
     cursor: pointer;
     
-}
+} /* Estilado de boton para agregar gasto al ser apuntado */
 
 .divTitleExpenses{
     color: white;
