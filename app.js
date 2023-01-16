@@ -52,7 +52,7 @@ const createDiv = () => {
   return newDivId
 }
 
-// muestra de texto en nuevo div:
+// muestra de texto en nuevo div si es mayor a 0 el gasto sigue su curso normal si es menor a 0 notificara en un div el error:
  const content = () => {
   if (moneyAvail > 0 && expAmmount > 0){
   newDiv.innerText = 'Monto: $  '
@@ -128,6 +128,7 @@ const updTotal = () => {
   }}
     
   
+/*   Declaracion de espera de clicks */
   btnAdd.addEventListener('click', getValues)
   btnAdd.addEventListener('click', contDiv)
   btnAdd.addEventListener('click', createDiv )
